@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+ html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+
+
+.row{
+    margin-right:0px !important;
+}
+.bg-black {
+    background-color: hsl(207, 76%, 43%);
+}
+
+.bg-section {
+    background-color: hsl(306, 28%, 86%);
+    height: 80px;
+}
+
+.bg-rohtak {
+    background-color: hsl(325, 45%, 77%);
+}
+
+.bg-kundli {
+    background-color: #8fa4c1;
+}
+
+.bg-amritsar {
+    background-color: hsl(164, 7%, 93%);
+}
+
+.bg-delhi {
+    background-color: hsl(158, 40%, 76%);
+}
+
+#reach {
+    color: white;
+    margin: 20px 20px;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col-md-6 img {
+    margin: 10px 10px;
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#space {
+    margin-bottom: 40px;
+}
+
+#rohtak {
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    COLOR: hsl(325, 20%, 35%);
+    ;
+    font-weight: 800;
+    font-family: 'Bitter', sans-serif;
+}
+
+#kundli {
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    COLOR: #4e6b93;
+    font-weight: 800;
+    font-family: 'Bitter', sans-serif;
+}
+
+#amritsar {
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    COLOR: #74959e;
+    font-weight: 800;
+    font-family: 'Bitter', sans-serif;
+}
+
+#delhi {
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    COLOR: #00a08d;
+    font-weight: 800;
+    font-family: 'Bitter', sans-serif;
+}
+
+.about_container {
+    width: 100%;
+}
+
+.background {
+    background-color: #3c3d41;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #333333;
+    height: 50px;
+}
+
+footer {
+    color: white;
+}
+
+#copyright {
+    padding-top: 10px;
+}
+
+.img {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+    color: white;
+}
+
+.twitter:hover {
+    color: deepskyblue;
+}
+
+.facebook:hover {
+    color: royalblue;
+}
+
+.btn {
+    margin-top: 20px;
+
+}
+
+.col-md-4 form input {
+    margin-bottom: 3px;
+}
+
+
+
+#contact {
+    margin-top: 20px;
+}
+
+#form {
+    margin-top: 20px;
+}
+
+#caption {
+    
+
+    color: hsl(325, 20%, 35%);
+}
+
+#caption1 {
+    font-size: 1.2em;
+
+    color: #ff3b50;
+}
+
+#caption2 {
+    font-size: 1.2em;
+
+    color: #d34836;
+}
+
+
+#query {
+    color: white;
+    font-size: 1.5em;
+    margin: 20px 20px;
+}
+
+@media (min-width:30px) and (max-width: 320px) {
+    .background {
+        height: 430px;
+
+    }
+    #query {
+        color: white;
+        font-size: 1.2em;
+        margin: 20px 20px;
+    }
+
+    
+
+    #reach {
+        color: white;
+        margin: 20px 20px;
+        font-size: 25px;
+
+    }
+
+    .col-md-6 img {
+        margin: 10px 10px;
+        float: right;
+    }
+
+
+}
+
+@media (min-width:320px) and (max-width: 480px) {
+    .background {
+        /*    background-color:#3c3d41;*/
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    #query {
+        color: white;
+        font-size: 1.2em;
+        margin: 20px 20px;
+    }
+
+    
+
+    #reach {
+        color: white;
+        margin: 30px 20px 20px 20px;
+        font-size: 25px;
+
+    }
+
+    .col-md-6 img {
+        margin: 10px 10px;
+        float: right;
+    }
+
+}
+
+@media (min-width:480px) and (max-width: 760px) {
+
+    .background {
+        height: 410px;
+
+    }
+
+    #reach {
+        color: white;
+        margin: 30px 20px 20px 20px;
+
+        font-size: 30px;
+
+    }
+
+}
+
+@media (min-width: 760px) and (max-width:1024px) {
+    .background {
+        
+        height: 300px;
+        margin-top: 30px;
+    }
+
+
+
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="header">
+    
+<img src="sapnelogo.png" class="image" >
+<h1 id="logo">News & Events</h1>
+</div>
+    
+    
+<div class="con">
+
+    
+<div class="date">
+  <div class="day">Feb</div>
+  <div class="month">2018</div>
+</div>
+<h3>News</h3>
+<div id="item">
+    
+    
+    
+    
+<img id="myImg" src="WhatsApp%20Image%202018-02-11%20at%2011.50.09%20AM.jpeg" height="200px" width="350px">
+    
+    
+    
+    <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+    
+    
+    
+    
+    
+<div>
+    <input type="checkbox" class="read-more-state" id="post-1" />
+
+    <p class="read-more-wrap"><strong><font size="20">We need you!</font><br></strong> <span class="read-more-target">Be a part of SAPNE organisation and help everyone's dreams become a reality.<br><strong><u>Contact: </u></strong>98*******<br><strong><u>Location: </u></strong>Sapne Organisation, Delhi
+    </span></p>
+  
+  <label for="post-1" class="read-more-trigger"></label>
+</div>
+</div>
+
+<br>
+<br>
+<hr>
+    
+
+<div class="date">
+  <div class="day">July</div>
+  <div class="month">2018</div>
+    </div>
+    <h3>Event1</h3>
+    <div id="item">
+        
+    <img id="myImg1" src="site_0734_0001-750-0-20090921160202.jpg" height="200px" width="350px">
+        
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+        
+        
+       <div>
+  <input type="checkbox" class="read-more-state1" id="post-2" />
+
+           <p class="read-more-wrap1"><strong><font size="20">We are looking for volunteers!</font><br></strong> <span class="read-more-target1">Be a part of SAPNE organisation and help everyone's dreams become a reality.<br>
+      <strong><u>Date: </u></strong>22<sup>th</sup> July 2018<br>
+        <strong><u>Time: </u></strong>10 A.M.
+        <br><strong><u>Location: </u></strong>Sapne Organisation, Delhi
+      
+           </span></p>
+  
+  <label for="post-2" class="read-more-trigger1"></label>
+</div>
+        </div>
+    </div>
+    
+        
+    <script>
+        // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+
+
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg1');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+    
+
+</script>
+</body>
+</html>

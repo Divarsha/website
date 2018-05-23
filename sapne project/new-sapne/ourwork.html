@@ -1,0 +1,605 @@
+<!-- Last updated on 13-1-2018 by Prithviraj -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Our Camps</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+	<style>
+	.card {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#banner_image{
+    padding-top:5px;
+padding-bottom: 50px;
+text-align: center;
+ color: #f4f4f4;
+ background: url("img/14.jpeg") no-repeat center center;
+ background-size: cover;
+}
+#banner-content{
+    position: relative;
+ padding-top: 6%;
+ padding-bottom: 6%;
+ margin-top: 12%;
+margin-bottom: 12%; background-color: rgba(0, 0, 0, 0.6);
+max-width: 100%;
+}
+#banner-contents{
+    position: relative;
+ padding-top: 6%;
+ padding-bottom: 6%;
+ margin-top: 12%;
+margin-bottom: 30%; background-color: rgba(0, 0, 0, 0.6);
+max-width: 100%;
+}
+#map{
+margin-top:-40px;
+}
+
+</style>
+  </head>
+
+  <body>
+     <div id="header">
+
+    
+                        <img src="img/sapnelogo.png" width="8.5%" height="auto" style="float: left; margin-left: 70px; margin-top: 10px; "
+                             class="img-responsive">
+                        
+                        <ul>
+           
+                                <a href="contact.html"> <li class="six"></li></a>
+                                <a href="media.html"> <li class="five"></li></a>
+                                <a href="stories.html"> <li class="four"></li></a>
+                                <a href="profile.html"> <li class="three"></li></a>
+								<a href="about.html"> <li class="two"></li></a>
+								<a href="index.html"> <li class="one"></li></a>
+                        </ul>
+                        </div>
+<style>
+      #header{
+	width: 100%;
+	color:white;
+	background-color: black;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right: auto;
+	height: 50px;
+	color:white;
+	position: fixed;
+	z-index: 3;
+    }
+#header ul li{
+	font-size: 1vw;
+    list-style-type: none;
+    float: right; 	
+ 	display:inline;
+    padding: 0.5% 0.7% 1% 0.7%;
+    margin:0.4% 0.7%;
+    
+}
+.one{
+	color: white;
+	width: 9%;
+	height: 40px;
+	position: relative;
+	background-color: black;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.one:before{
+	content: 'HOME';
+	font-family: sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.5s;
+}
+.one:hover:before{
+	top: -30px;
+}
+
+.one:after{
+	font-family: 'Ionicons';
+	 content:'\f448';
+	 position: absolute;
+	 top: calc(100% + 30px);
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	font-size: 30px;
+	transition: all 0.5s;
+}
+
+.one:hover:after{
+	top:50%;
+	
+}
+.two{
+	color: white;
+	width: 9%;
+	height: 40px;
+	position: relative;
+	background-color: black;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.two:before{
+	content: 'ABOUT';
+	font-family: sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.5s;
+}
+.two:hover:before{
+	top: -30px;
+}
+
+.two:after{
+	font-family: 'Ionicons';
+	 content:'\f41a';
+	 position: absolute;
+	 top: calc(100% + 30px);
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	font-size: 30px;
+	transition: all 0.5s;
+}
+
+.two:hover:after{
+	top:50%;
+	
+}
+.three{
+	color:  white;
+	width: 9%;
+	height: 40px;
+	position: relative;
+	background-color: black;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.three:before{
+	content: 'PROFILE';
+	font-family: sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.5s;
+}
+.three:hover:before{
+	top: -30px;
+}
+
+.three:after{
+	font-family: 'Ionicons';
+	 content:'\f47c';
+	 position: absolute;
+	 top: calc(100% + 30px);
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	font-size: 30px;
+	transition: all 0.5s;
+}
+
+.three:hover:after{
+	top:50%;
+	
+}
+.four{
+	color:  white;
+	width: 9%;
+	height: 40px;
+	position: relative;
+	background-color: black;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.four:before{
+	content: 'STORIES';
+	font-family: sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.5s;
+}
+.four:hover:before{
+	top: -30px;
+}
+
+.four:after{
+	font-family: 'Ionicons';
+	 content:'\f3e8';
+	 position: absolute;
+	 top: calc(100% + 30px);
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	font-size: 30px;
+	transition: all 0.5s;
+}
+
+.four:hover:after{
+	top:50%;
+	
+}
+
+.five{
+	color:white;
+	width: 9%;
+	height: 40px;
+	position: relative;
+	background-color: black;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.five:before{
+	content: 'MEDIA';
+	font-family: sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.5s;
+}
+.five:hover:before{
+	top: -30px;
+}
+
+.five:after{
+	font-family: 'Ionicons';
+	 content:'\f148';
+	 position: absolute;
+	 top: calc(100% + 30px);
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	font-size: 30px;
+	transition: all 0.5s;
+}
+
+.five:hover:after{
+	top:50%;
+	
+}
+.six{
+	color: white;
+	width: 9%;
+	height: 40px;
+	position: relative;
+	background-color: black;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.six:before{
+	content: 'CONTACT';
+	font-family: sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.5s;
+}
+.six:hover:before{
+	top: -30px;
+}
+
+.six:after{
+	font-family: 'Ionicons';
+	 content:'\f2d2';
+	 position: absolute;
+	 top: calc(100% + 30px);
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	font-size: 30px;
+	transition: all 0.5s;
+}
+
+.six:hover:after{
+	top:50%;
+	
+}
+      </style>
+    <!-- Page Header -->
+
+    <!-- Page Header -->
+   <header class="masthead"  style="background-image: url('img/18.jpeg')">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1 class="animated rotate" >Our Camps</h1>
+              <span class="subheading">-Explore the world with Us</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+	 <div id="banner_image">
+    <div class="container" id="map">
+
+      <div class="row">
+<div id="banner-content" class="animated bounce">
+				
+        <div class="col-md-12">
+
+          <h1 class="my-4">Sapne actions corner
+            <small></small>
+          </h1>
+
+         
+<div class="card-columns">
+  <div class="card animated bounce ">
+    <img class="card-img-top img-fluid" src="img/14.jpeg" alt="Card image cap">
+    <div class="card-block">
+	 <blockquote class="card-blockquote">
+      <p> So,here at Sapne our NGO ,we are 
+         providing quality teachers, for the children who are willing to study and who want to make their future bright but due to some 
+         obstacles, they are unable to do so. Due to this reason, we are teaching them,making them capable for themselves and for the society too.We have organised special camps in which we teach students, we provide the children with academic education and apart from this,
+         we play with them, we teach them how to live life to its fullest.And in the two hours of the camp,those children are so happy that their happiness ,their joy,their cheer cannot be expressed.</p>
+      <footer>
+        <small class="text-muted">
+          A teacher presents the past reveals the present and creates the future, rightly said by <br>-JOHN HOLT.
+        </small>
+      </footer>
+    </blockquote>
+     </div>
+  </div>
+  <div class="card p-2">
+    <blockquote class="card-block card-blockquote">
+      <p>On the ocassion of first anniversary sapne is donating blankets and organising bhandara for needy.Your donations are very much welcome.
+        For making a donation please visit our donations page for further details or contact us page.</p>
+    </blockquote>
+  </div>
+  <div class="card">
+    <img class="card-img-top img-fluid" src="img/12.jpeg" alt="Card image cap">
+  </div>
+  <div class="card card-inverse card-primary p-2 text-center">
+    <blockquote class="card-blockquote">
+      <p>We are grateful to batra family for supporting and extending their hand for the help of needy people by donating blankets.
+        To make a donation visit our donations page.</p>
+    </blockquote>
+  </div>
+  
+  <div class="card">
+    <img class="card-img img-fluid" src="img/sapne.jpg" alt="Card image">
+  </div>
+    
+  <div class="card p-2 text-center">
+    <blockquote class="card-blockquote">
+      <p>At sapne we believe in investing in the future of nation. The youth wish to be a part of this noble cause are welcomed.
+        For volunteering with us please look the join us page and fill the volunteer form.</p>
+      <footer>
+        <small class="text-muted">"We make a living by what we get,<br>But we make a life by what we give."
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+    
+    <div class="card p-2 text-center">
+    <div class="card">
+    <img class="card-img-top img-fluid" src="img/17.jpeg" alt="Card image cap">
+  </div>
+  </div>
+    <div class="card p-2 text-center">
+    <blockquote class="card-blockquote">
+      <p>We believe that, Learning is not the product of teaching, Learning is the product of activites of learners.So we indulge the children in various kinds of activities of their own interest and also in other activities which can benefit them in future.We dance together,we play togther, we study together, we giggle together, we gossip together, we share our memories, our experiences in those two hours of regular camps organised by Sapne.For Us,every Sapna every dream is very important and hence we try our best to accomplish that, if not accomplish that we try our best to give that dream a direction.For this, we provide teachers,who are skilled in their fields of workand accordingly they teach,they train the students.In this way teachers get the platform to teach and express or share their knowledge,moreover, increase theirknowledge and students get quality education.</p>
+    </blockquote>
+  </div>
+  <div class="card">
+    <img class="card-img-top img-fluid" src="img/15.jpeg" alt="Card image cap">
+  </div>
+</div>
+</div>
+          <!-- Pagination -->
+          <ul class="pagination justify-content-center mb-4">
+            <li class="page-item">
+              <a class="page-link" href="#">&larr; Older</a>
+            </li>
+            <li class="page-item disabled">
+              <a class="page-link" href="#">Newer &rarr;</a>
+            </li>
+          </ul>
+
+        </div>
+		</div>
+</div>
+        <!--
+        <div class="col-md-4">
+
+          
+          <div class="card my-4">
+            <h5 class="card-header">Search</h5>
+            <div class="card-body">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="card my-4">
+            <h5 class="card-header">Top Categories</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#">Web Design</a>
+                    </li>
+                    <li>
+                      <a href="#">HTML</a>
+                    </li>
+                    <li>
+                      <a href="#">Freebies</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#">JavaScript</a>
+                    </li>
+                    <li>
+                      <a href="#">CSS</a>
+                    </li>
+                    <li>
+                      <a href="#">Tutorials</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card my-4">
+            <h5 class="card-header">TOP AUTHORS</h5>
+            <div class="card-body">
+			 <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#">Washington</a>
+                    </li>
+                    <li>
+                      <a href="#">RAMesh</a>
+                    </li>
+                    <li>
+                      <a href="#">SHISHIR</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#">kittu</a>
+                    </li>
+                    <li>
+                      <a href="#">Harshit sir</a>
+                    </li>
+                    <li>
+                      <a href="#">PULKIT</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              </div>
+          </div>
+		            <div class="card my-4">
+            <h5 class="card-header">Sponsored</h5>
+            <div class="card-body">
+                    <div class="card my-2">
+            <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">Post Title</h2>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+              <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            </div>
+            <div class="card-footer text-muted">
+              Posted on January 1, 2017 by
+              <a href="#">SHIshir</a>
+            </div>
+			                <div class="card my-2">
+            <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">Post Title</h2>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+              <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            </div>
+            <div class="card-footer text-muted">
+              Posted on January 1, 2017 by
+              <a href="#">SHIshir</a>
+            </div>
+          </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+  
+
+    </div> -->
+    <hr>
+
+    <!-- Footer 
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <h2>
+            <p class="copyright text-muted">Copyright &copy; sapne 2017</p></h2>
+          </div>
+        </div>
+      </div>
+    </footer>
+-->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+  </body>
+
+</html>

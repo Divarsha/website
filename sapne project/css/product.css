@@ -1,0 +1,58 @@
+#tshirt{
+    font-size:40px;
+    
+}
+
+#heart{
+    font-size:20px;
+    width:200px;
+}
+
+#heart1{
+    font-size:20px;
+}
+
+.jumbotron{
+    background-color:rgba(238, 238, 238,0.4) !important;
+}
+
+.thumbnail{
+    margin-top:30px;
+}
+
+#tshirt-section{
+    margin-top:50px;
+}
+
+img{
+    margin-bottom:20px;
+    margin-top:5px;
+}
+
+p{
+    margin-top:0px !important;
+}
+
+#top-center-part{
+	 
+	width: 100vw;
+
+	
+}
+
+@media (min-width:401px) and (max-width:769px){
+    #heart{
+        width:auto;
+    }
+}
+
+@media (max-width:400px){
+    #heart{
+        font-size:13px;
+        width:auto;
+    }
+    
+    #heart1{
+        font-size:13px;
+    }
+}

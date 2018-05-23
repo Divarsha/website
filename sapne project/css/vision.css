@@ -1,0 +1,133 @@
+
+/*
+.header{
+    background:url(../Vision_1.jpg) no-repeat;
+    background-size: cover;
+    height:600px;
+    padding:5px;
+    margin-left: 3px;
+}*/
+.header p{
+    text-align: center;
+     font-family: 'Cousine';
+    font-size: 30px;
+    padding:3px;
+    color:aqua;
+}
+.header img{
+    border-radius:3px;
+    border-color:aqua;
+}
+#content div{
+    min-width: 200px;
+}
+#header1{
+    background-color:#cff4f4 ;
+    color:cyan;
+    /* border:10px solid black;
+    border-radius:10px; */
+    font-size:80px;
+    font-family: 'Rye', cursive;
+    text-align:center;
+    
+}
+.black{
+    background-color:gray;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+#content h2{
+    background:#fff;
+    color:cyan;
+    text-align:center;
+   /* border:2px solid gray;
+    border-radius: 10px; */
+}
+#content p{
+    color:#fff; 
+}
+#parallax{
+    margin-top:150px;
+    margin-bottom: 30px;
+    background: url(images/child-education.jpg);
+    background-size: cover;
+    padding:5px;
+}
+#parallax img{
+    width:450px;
+    height:500px;
+    margin-top:5px;    
+}
+#parallax p{
+    font-size:30px;
+    color:white;
+    padding:2px;
+    text-align: center;
+}
+#parallax p{
+    /*background: url(./texture.jpg); */
+    width:100%;
+    background-size: cover;
+    width:100%;
+   
+    font-family: 'Anaheim';
+    font-size: 30px;
+}
+#parallax h2{
+    color:#fff;
+    text-align: center;
+    font:italic;
+}
+.item{
+    -webkit-animation-duration:3s;
+    -webkit-animation-delay:5s;
+}
+.item1{
+    -webkit-animation-duration:3s;
+    -webkit-animation-delay:2s;
+}
+#content p{
+    color:gray;
+    border:4px solid cyan;
+    border-radius:10px;
+    box-sizing: border-box;
+    height: 450px;
+    width:auto;
+    overflow:auto;/* 100px x3 = 300 */
+    font-size:25px;
+    
+}
+.overlap{
+    width:33%;
+        overflow:auto;
+}
+.overlap1{
+    width:50%;
+    overflow:auto;
+}
+.glyphs {
+  list-style-type: none;
+}
+.padd{
+    padding: 10px 10px 10px 10px;
+}
+.overlap2{
+    width:20%;
+    overflow:auto;
+    align-content: center;
+}
+.overlap3{
+    position: fixed;
+    width:50%;
+    overflow:auto;
+}
+
+
+@media(max-width:400px){
+    #header h1{
+        font-size: 50px;
+    }
+    
+}

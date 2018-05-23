@@ -1,0 +1,43 @@
+.row{
+            margin-right:0px;
+        }
+        
+        .image{
+            float:right;
+    margin-right: 10%;
+    margin-top: 10%;
+    opacity: 1;
+    border-radius: 100px 10px 100px 10px;
+                                      height:310px;
+        }
+        
+        
+        
+        @media (max-width:360px){
+            .image{
+                height:200px;
+                
+                margin-left:0px;
+                text-align:center;
+            }
+            
+            .logo{
+            margin-left:30px !important;
+                
+        }
+            
+            #header{
+                height:50px !important;
+            }
+        }
+            
+            @media (min-width:361px) and (max-width:768px){
+                .image{
+                height:250px;
+                margin-right:0px;
+                margin-left:100px;
+                    margin-top:80px;
+                text-align:center;
+            }
+            }
+        

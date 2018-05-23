@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GALLERY|MEDIA|SAPNE</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="SAPNE-Be a part of someone's dream" />
+        <meta name="keywords" content="Sapne, orgainsation, kid, help, poor, finance, institute, ngo, non-government organisation, ready , to, provide, help, selfless organisation, financial support, study, education, literate, literacy, educate, weak, section, of, society, awareness, dedicated people, jquery, css3, 3d, webkit, child, slider, css3, 3d transforms, slices, rotate, box, automatic" />
+    <meta name="author" content="SHUBHAM ANAND" />
+    <link rel="shortcut icon" href="images/sapnelogo.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.waterwheelCarousel.js"></script>
+    <script type="text/javascript">
+      /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIRST COROUSEL SCRIPT----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+      $(document).ready(function () {
+        var carousel = $("#carousel").waterwheelCarousel({
+          flankingItems: 3,
+          movingToCenter: function ($item) {
+            $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedToCenter: function ($item) {
+            $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movingFromCenter: function ($item) {
+            $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedFromCenter: function ($item) {
+            $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          clickedCenter: function ($item) {
+            $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+          }
+        });
+
+        $('#prev').bind('click', function () {
+          carousel.prev();
+          return false
+        });
+
+        $('#next').bind('click', function () {
+          carousel.next();
+          return false;
+        });
+
+        $('#reload').bind('click', function () {
+          newOptions = eval("(" + $('#newoptions').val() + ")");
+          carousel.reload(newOptions);
+          return false;
+        });
+
+      });
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------SECOND COROUSEL SCRIPT----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+                
+
+      $(document).ready(function () {
+        var carouseltwo = $("#carouseltwo").waterwheelCarousel({
+          flankingItems: 3,
+          movingToCenter: function ($item) {
+            $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedToCenter: function ($item) {
+            $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movingFromCenter: function ($item) {
+            $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedFromCenter: function ($item) {
+            $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          clickedCenter: function ($item) {
+            $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+          }
+        });
+
+        $('#prev').bind('click', function () {
+          carouseltwo.prev();
+          return false
+        });
+
+        $('#next').bind('click', function () {
+          carouseltwo.next();
+          return false;
+        });
+
+        $('#reload').bind('click', function () {
+          newOptions = eval("(" + $('#newoptions').val() + ")");
+          carouseltwo.reload(newOptions);
+          return false;
+        });
+
+      });
+
+
+      /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------THIRD COROUSEL SCRIPT----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+      
+
+
+
+      $(document).ready(function () {
+        var carouselthree = $("#carouselthree").waterwheelCarousel({
+          flankingItems: 3,
+          movingToCenter: function ($item) {
+            $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedToCenter: function ($item) {
+            $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movingFromCenter: function ($item) {
+            $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedFromCenter: function ($item) {
+            $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          clickedCenter: function ($item) {
+            $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+          }
+        });
+
+        $('#prev').bind('click', function () {
+          carouselthree.prev();
+          return false
+        });
+
+        $('#next').bind('click', function () {
+          carouselthree.next();
+          return false;
+        });
+
+        $('#reload').bind('click', function () {
+          newOptions = eval("(" + $('#newoptions').val() + ")");
+          carouselthree.reload(newOptions);
+          return false;
+        });
+
+      });
+
+
+      /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FOURTH COROUSEL SCRIPT----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+      
+
+
+
+      $(document).ready(function () {
+        var carouselfour = $("#carouselfour").waterwheelCarousel({
+          flankingItems: 3,
+          movingToCenter: function ($item) {
+            $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedToCenter: function ($item) {
+            $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movingFromCenter: function ($item) {
+            $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedFromCenter: function ($item) {
+            $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          clickedCenter: function ($item) {
+            $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+          }
+        });
+
+        $('#prev').bind('click', function () {
+          carouselfour.prev();
+          return false
+        });
+
+        $('#next').bind('click', function () {
+          carouselfour.next();
+          return false;
+        });
+
+        $('#reload').bind('click', function () {
+          newOptions = eval("(" + $('#newoptions').val() + ")");
+          carouselfour.reload(newOptions);
+          return false;
+        });
+
+      });
+
+
+
+      /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIFTH COROUSEL SCRIPT----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+      
+
+
+
+
+
+
+      $(document).ready(function () {
+        var carouselfive = $("#carouselfive").waterwheelCarousel({
+          flankingItems: 3,
+          movingToCenter: function ($item) {
+            $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedToCenter: function ($item) {
+            $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movingFromCenter: function ($item) {
+            $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedFromCenter: function ($item) {
+            $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          clickedCenter: function ($item) {
+            $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+          }
+        });
+
+        $('#prev').bind('click', function () {
+          carouselfive.prev();
+          return false
+        });
+
+        $('#next').bind('click', function () {
+          carouselfive.next();
+          return false;
+        });
+
+        $('#reload').bind('click', function () {
+          newOptions = eval("(" + $('#newoptions').val() + ")");
+          carouselfive.reload(newOptions);
+          return false;
+        });
+
+      });
+	  
+	  
+      /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIFTH COROUSEL SCRIPT----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+      
+
+
+
+
+
+
+      $(document).ready(function () {
+        var carouselsix = $("#carouselsix").waterwheelCarousel({
+          flankingItems: 3,
+          movingToCenter: function ($item) {
+            $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedToCenter: function ($item) {
+            $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movingFromCenter: function ($item) {
+            $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedFromCenter: function ($item) {
+            $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          clickedCenter: function ($item) {
+            $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+          }
+        });
+
+        $('#prev').bind('click', function () {
+          carouselsix.prev();
+          return false
+        });
+
+        $('#next').bind('click', function () {
+          carouselsix.next();
+          return false;
+        });
+
+        $('#reload').bind('click', function () {
+          newOptions = eval("(" + $('#newoptions').val() + ")");
+          carouselsix.reload(newOptions);
+          return false;
+        });
+
+      });
+	  
+	  
+      /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIFTH COROUSEL SCRIPT----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+      
+
+
+
+
+
+
+      $(document).ready(function () {
+        var carouselseven = $("#carouselseven").waterwheelCarousel({
+          flankingItems: 3,
+          movingToCenter: function ($item) {
+            $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedToCenter: function ($item) {
+            $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movingFromCenter: function ($item) {
+            $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedFromCenter: function ($item) {
+            $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          clickedCenter: function ($item) {
+            $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+          }
+        });
+
+        $('#prev').bind('click', function () {
+          carouselseven.prev();
+          return false
+        });
+
+        $('#next').bind('click', function () {
+          carouselseven.next();
+          return false;
+        });
+
+        $('#reload').bind('click', function () {
+          newOptions = eval("(" + $('#newoptions').val() + ")");
+          carouselseven.reload(newOptions);
+          return false;
+        });
+
+      });
+	  
+	  
+      /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FIFTH COROUSEL SCRIPT----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+      
+
+
+
+
+
+
+      $(document).ready(function () {
+        var carouseleight = $("#carouseleight").waterwheelCarousel({
+          flankingItems: 3,
+          movingToCenter: function ($item) {
+            $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedToCenter: function ($item) {
+            $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movingFromCenter: function ($item) {
+            $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedFromCenter: function ($item) {
+            $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          clickedCenter: function ($item) {
+            $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+          }
+        });
+
+        $('#prev').bind('click', function () {
+          carouseleight.prev();
+          return false
+        });
+
+        $('#next').bind('click', function () {
+          carouseleight.next();
+          return false;
+        });
+
+        $('#reload').bind('click', function () {
+          newOptions = eval("(" + $('#newoptions').val() + ")");
+          carouseleight.reload(newOptions);
+          return false;
+        });
+
+      });
+    </script>
+
+    <style type="text/css">
+      body {
+        font-family:Arial;
+        font-size:12px;
+        background:#ededed;
+      }
+      .example-desc {
+        margin:3px 0;
+        padding:5px;
+      }
+      /*STYLING THE FIRST BOX OF COROUSEL*/
+      div#carousel {
+    background: transparent;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+     
+     /*STYLING THE SECOND BOX OF COROUSEL*/
+    div#carouseltwo {
+    background: transparent;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+     /*STYLING THE THIRD BOX OF COROUSEL*/
+    div#carouselthree {
+    background: transparent;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}   
+     /*STYLING THE FOURTH BOX OF COROUSEL*/
+    div#carouselfour{
+    background: transparent;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}   
+     /*STYLING THE FIFTH BOX OF COROUSEL*/
+    div#carouselfive {
+    background: transparent;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ /*STYLING THE sixth BOX OF COROUSEL*/
+    div#carouselsix {
+    background: transparent;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ /*STYLING THE seventh BOX OF COROUSEL*/
+    div#carouselseven {
+    background: transparent;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ /*STYLING THE eighth BOX OF COROUSEL*/
+    div#carouseleight {
+    background: transparent;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+    a#prev {
+    background-color: rgba(31,31,31,0.8);
+    color: white;
+    padding: 10px 50px;
+    text-decoration: none;
+    margin-left: 40%;
+    margin-right: auto;
+}
+       a#next {
+    background-color: rgba(31,31,31,0.8);
+    color: white;
+    padding: 10px 50px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+      #carousel {
+        width:960px;
+        border:1px solid #222;
+        height:300px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carousel img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+      }
+
+      #carouseltwo {
+        width:960px;
+        border:1px solid #222;
+        height:300px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carouseltwo img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+      }
+
+       
+       #carouselthree {
+        width:960px;
+        border:1px solid #222;
+        height:300px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carouselthree img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+      }
+
+      #carouselfour {
+        width:960px;
+        border:1px solid #222;
+        height:300px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carouselfour img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+      }
+
+
+      #carouselfive {
+        width:960px;
+        border:1px solid #222;
+        height:300px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carouselfive img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+      }
+
+	  
+      #carouselsix {
+        width:960px;
+        border:1px solid #222;
+        height:300px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carouselsix img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+      }
+
+	  
+      #carouselseven {
+        width:960px;
+        border:1px solid #222;
+        height:300px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carouselseven img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+      }
+
+	  
+      #carouseleight {
+        width:960px;
+        border:1px solid #222;
+        height:300px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carouseleight img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+      }
+
+
+
+      .split-left {
+        width:450px;
+        float:left;
+      }
+      .split-right {
+        width:400px;
+        float:left;
+        margin-left:10px;
+      }
+      #callback-output {
+        height:250px;
+        overflow:scroll;
+      }
+      textarea#newoptions {
+        width:430px;
+      }
+      div#header {
+    height: 79px !important;
+    margin-top: 0px;
+    z-index: 11;
+}
+    </style>
+  </head>
+
+  <body>
+    <div id="header" >
+
+    
+                        <img src="images/sapnelogo.png" width="8.5%" height="auto" style="float: left; margin-left: 70px; margin-top: 10px; ">
+                        
+                        <ul>
+                                
+                                
+                               
+                                
+                               <a href="contact.html"> <li class="six"></li></a>
+                                <a href="media.html"> <li class="five"></li></a>
+                                <a href="stories.html"> <li class="four"></li></a>
+                                <a href="profile.html"> <li class="three"></li></a>
+                <a href="about.html"> <li class="two"></li></a>
+                <a href="index.html"> <li class="one"></li></a>
+                        </ul>
+                        </div>
+
+
+        <!--div_for_nav_ended_over_here -->
+
+
+<!-- *****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-->        
+
+        <!--div_for_bootstrap_container -->
+
+ <img src="images/cover.jpg" width="100%" height="auto" 
+      style="position: fixed;
+       z-index: -11;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 110%;
+       min-height: 100vh ;
+       height:100%;
+       ">
+    <div  id="top-center-part" class="container" style="margin-left: -15px;">
+
+      <!--background-image-->
+     
+
+
+       
+
+
+       
+        </div>
+     <br><br><br><br><br><br>
+    <h1 style="text-align: center; color: white;">BLOOD DONATION</h1>
+    <div id="carousel">
+      <img src="images/gallery/blood donation/1.jpg" id="item-1" />
+      <img src="images/gallery/blood donation/2.jpg" id="item-2" />
+      <img src="images/gallery/blood donation/3.jpg" id="item-3" />
+      <img src="images/gallery/blood donation/4.jpg" id="item-4" />
+      <img src="images/gallery/blood donation/5.jpg" id="item-5" />
+      
+      
+    </div>
+          
+    <br/>
+    <hr style="color: white; height: 5px; width: 60%; background-color: white; border-radius: 10px;">
+    <br/>
+    <br/>
+     
+
+     <h1 style="text-align: center; color: white;">EDUCATION</h1>
+    <div id="carouseltwo">
+      <img src="images/gallery/education/1.jpg" id="item-1" />
+      <img src="images/gallery/education/2.jpg" id="item-2" />
+      <img src="images/gallery/education/3.jpg" id="item-3" />
+      <img src="images/gallery/education/4.jpg" id="item-4" />
+      <img src="images/gallery/education/5.jpg" id="item-5" />
+      <img src="images/gallery/education/6.jpg" id="item-6" />
+      <img src="images/gallery/education/7.jpg" id="item-7" />
+      <img src="images/gallery/education/8.jpg" id="item-8" />
+      <img src="images/gallery/education/9.jpg" id="item-9" />
+      <img src="images/gallery/education/10.jpg" id="item-9" />
+      <img src="images/gallery/education/11.jpg" id="item-9" />
+      <img src="images/gallery/education/12.jpg" id="item-9" />
+      <img src="images/gallery/education/13.jpg" id="item-9" />
+    </div>
+
+    <br/>
+    <hr style="color: white; height: 5px; width: 60%; background-color: white; border-radius: 10px;">
+    <br/>
+    <br/>
+    
+       
+     <h1 style="text-align: center; color: white;">GROWING STEPS</h1>
+    <div id="carouselthree">
+      <img src="images/gallery/growing steps/1.jpg" id="item-1" />
+      <img src="images/gallery/growing steps/2.jpg" id="item-2" />
+      <img src="images/gallery/growing steps/3.jpg" id="item-3" />
+      <img src="images/gallery/growing steps/4.jpg" id="item-4" />
+      <img src="images/gallery/growing steps/5.jpg" id="item-5" />
+      <img src="images/gallery/growing steps/6.jpg" id="item-6" />
+      <img src="images/gallery/growing steps/7.jpg" id="item-7" />
+      <img src="images/gallery/growing steps/8.jpg" id="item-8" />
+      <img src="images/gallery/growing steps/9.jpg" id="item-9" />
+      <img src="images/gallery/growing steps/10.jpg" id="item-9" />
+      <img src="images/gallery/growing steps/11.jpg" id="item-9" />
+      <img src="images/gallery/growing steps/12.jpg" id="item-9" />
+      <img src="images/gallery/growing steps/13.jpg" id="item-9" />
+      <img src="images/gallery/growing steps/14.jpg" id="item-9" />
+      <img src="images/gallery/growing steps/15.jpg" id="item-9" />
+      <img src="images/gallery/growing steps/16.jpg" id="item-9" />
+      <img src="images/gallery/growing steps/17.jpg" id="item-9" />
+    </div>
+
+    <br/>
+    <hr style="color: white; height: 5px; width: 60%; background-color: white; border-radius: 10px;">
+    <br/>
+    <br/>
+    
+    
+
+    <h1 style="text-align: center; color: white;">HOLI</h1>
+    <div id="carouselfour">
+      <img src="images/gallery/holi/1.jpg" id="item-1" />
+      <img src="images/gallery/holi/2.jpg" id="item-2" />
+      <img src="images/gallery/holi/3.jpg" id="item-3" />
+      <img src="images/gallery/holi/4.jpg" id="item-4" />
+      <img src="images/gallery/holi/5.jpg" id="item-5" />
+      <img src="images/gallery/holi/6.jpg" id="item-6" />
+      <img src="images/gallery/holi/7.jpg" id="item-7" />
+      </div>
+
+    <br/>
+    <hr style="color: white; height: 5px; width: 60%; background-color: white; border-radius: 10px;">
+    <br/>
+    <br/>
+    
+
+    <h1 style="text-align: center; color: white;">RAKHI</h1>
+    <div id="carouselfive">
+      <img src="images/gallery/rakhi/1.jpg" id="item-1" />
+      <img src="images/gallery/rakhi/2.jpg" id="item-2" />
+      <img src="images/gallery/rakhi/3.jpg" id="item-3" />
+      <img src="images/gallery/rakhi/4.jpg" id="item-4" />
+      </div>
+
+    <br/>
+    <hr style="color: white; height: 5px; width: 60%; background-color: white; border-radius: 10px;">
+    <br/>
+    <br/>
+      
+	  
+	  <h1 style="text-align: center; color: white;">Magazine Launch </h1>
+    <div id="carouselsix">
+      <img src="images/gallery/holi/1.jpg" id="item-1" />
+      <img src="images/gallery/holi/2.jpg" id="item-2" />
+      <img src="images/gallery/holi/3.jpg" id="item-3" />
+      <img src="images/gallery/holi/4.jpg" id="item-4" />
+      <img src="images/gallery/holi/5.jpg" id="item-5" />
+      <img src="images/gallery/holi/6.jpg" id="item-6" />
+      <img src="images/gallery/holi/7.jpg" id="item-7" />
+      </div>
+	  
+	  
+    <br/>
+    <hr style="color: white; height: 5px; width: 60%; background-color: white; border-radius: 10px;">
+    <br/>
+    <br/>
+      
+	  
+	  <h1 style="text-align: center; color: white;">AAYAM</h1>
+    <div id="carouselseven">
+      <img src="images/gallery/ayaam2k17/ayaam1.jpg" id="item-1"/>
+      <img src="images/gallery/ayaam2k17/ayaam2.jpg" id="item-2" />
+      <img src="images/gallery/ayaam2k17/ayaam3.jpg" id="item-3" />
+      <img src="images/gallery/ayaam2k17/ayaam4.jpg" id="item-4" />
+      <img src="images/gallery/ayaam2k17/ayaam5.jpg" id="item-5" />
+      <img src="images/gallery/ayaam2k17/ayaam6.jpg" id="item-6" />
+      <img src="images/gallery/ayaam2k17/ayaam7.jpg" id="item-7" />
+	  <img src="images/gallery/ayaam2k17/ayaam8.jpg" id="item-8" />
+      <img src="images/gallery/ayaam2k17/ayaam9.jpg" id="item-9" />
+	   <img src="images/gallery/ayaam2k17/ayaam10.jpg" id="item-10" />
+
+
+      </div>
+	  
+	  
+    <br/>
+    <hr style="color: white; height: 5px; width: 60%; background-color: white; border-radius: 10px;">
+    <br/>
+    <br/>
+      
+	  
+	  <h1 style="text-align: center; color: white;">Draw your Dreams</h1>
+    <div id="carouseleight">
+      <img src="images/gallery/holi/1.jpg" id="item-1" />
+      <img src="images/gallery/holi/2.jpg" id="item-2" />
+      <img src="images/gallery/holi/3.jpg" id="item-3" />
+      <img src="images/gallery/holi/4.jpg" id="item-4" />
+      <img src="images/gallery/holi/5.jpg" id="item-5" />
+      <img src="images/gallery/holi/6.jpg" id="item-6" />
+      <img src="images/gallery/holi/7.jpg" id="item-7" />
+      </div>
+    
+	
+    <br/>
+    <hr style="color: white; height: 5px; width: 60%; background-color: white; border-radius: 10px;">
+    <br/>
+    <br/>
+	
+  </body>
+</html>
+
